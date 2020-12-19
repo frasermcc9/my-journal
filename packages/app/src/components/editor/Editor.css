@@ -1,0 +1,41 @@
+.Editor {
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    height: 100%;
+}
+
+
+/* Override default */
+
+.Draftail-Toolbar {
+    background: transparent !important;
+    border: none !important;
+}
+
+
+/* Override default */
+
+.Draftail-Editor {
+    border: none !important;
+    height: 100%;
+    width: 60% !important;
+    padding: 4rem 2rem 2rem 2rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+/* Override default */
+
+.public-DraftEditor-content {
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+
+/* Override default */
+
+.public-DraftEditorPlaceholder-inner {
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+}
