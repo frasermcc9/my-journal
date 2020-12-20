@@ -14,9 +14,6 @@ import EditorScreen from "./editor/Editor";
 import { Header } from "./editor/Header";
 import Actions from "./util/Actions";
 
-require("medium-editor/dist/css/medium-editor.css");
-require("medium-editor/dist/css/themes/default.css");
-
 interface AppProps {
   timeConversionStrategy: TimeConverterStrategy;
 }

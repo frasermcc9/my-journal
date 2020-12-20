@@ -4,7 +4,6 @@ import { DatePickerCalendar } from "react-nice-dates";
 import "react-nice-dates/build/style.css";
 import "./Calender.css";
 import { Button } from "@material-ui/core";
-import Actions from "../util/Actions";
 
 interface CalendarProps {
   onDayChosen: (day: Date) => void;

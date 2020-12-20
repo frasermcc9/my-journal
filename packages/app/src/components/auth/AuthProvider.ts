@@ -1,7 +1,6 @@
 import { gql } from "@apollo/client";
 import { EventEmitter } from "events";
 import client from "../../apollo/client";
-import { UserResponse } from "../../apollo/types";
 
 export default class AuthProviderImpl extends EventEmitter implements AuthProvider {
   private static authProvider?: AuthProvider;

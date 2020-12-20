@@ -1,4 +1,3 @@
-import classes from "*.module.css";
 import { Card, makeStyles } from "@material-ui/core";
 import React from "react";
 import { Centre } from "./Centre";

@@ -1,15 +1,12 @@
 import { ApolloProvider } from "@apollo/client";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import client from "./apollo/client";
 import "./App.css";
 import AuthProviderImpl from "./components/auth/AuthProvider";
 import { JournalRouter } from "./components/JournalRouter";
-import authContext from "./hooks/useAuth";
 import "./styles/tailwind.output.css";
 
 function Root() {
-  const { setAuthenticated } = useContext(authContext);
-
   const [auth, setAuth] = useState<number | null>(null);
 
   useEffect(() => {
