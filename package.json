@@ -4,15 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "lerna run --parallel start"
+        "start": "lerna run --parallel start",
+        "postinstall": "lerna bootstrap"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "dompurify": "^2.2.6",
         "lerna": "^3.22.1"
     },
-    "devDependencies": {
-        "@types/dompurify": "^2.0.4"
-    }
+    "devDependencies": {}
 }
